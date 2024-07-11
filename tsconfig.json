@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "esModuleInterop": true,
+      "target": "es6",
+      "moduleResolution": "node",
+      "sourceMap": true,
+      "outDir": "dist",
+      "noEmitOnError": true,
+      "strict": true,
+      "skipLibCheck": true, /* this will prevent TS errors from happening due to library errors */
+    },
+    "lib": ["es2015"],
+    "include": ["src/"],
+    "exclude": ["node_modules"]
+  }
